@@ -1,0 +1,108 @@
+.flexbox-container{
+
+    display: flex;
+
+    background-color: chartreuse;
+
+    flex-wrap:  wrap;
+    flex-direction: row;
+
+}
+
+.flexbox-container > div{
+
+width: 100px;
+margin: 10px;
+border: 3px solid black;
+background-color: gray;
+font-size: 20px;
+line-height: 75px;
+text-align: center;
+
+
+}
+
+/* .flexbox-container > div:hover{
+    background-color: brown;
+    color: azure;
+}    */ 
+
+.item1:hover{
+    background-color: bisque;
+    color: brown;
+}
+    
+.item2:hover{
+    background-color: fuchsia;
+    color:darkblue;
+}
+.item3:hover{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+.item4:hover{
+    background-color: cyan;
+    color: brown;
+}
+.item5:hover{
+    background-color:blue;
+    color: white;
+}
+
+.item1 a:link{
+
+    text-decoration: none;
+    
+}
+
+.item1 a:visited{
+    text-decoration:none
+}
+
+
+/*
+
+.flexbox-item-1{
+    min-height: 100px;
+    
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+}
+
+.flexbox-item-3{
+    min-height: 300px;
+}
+
+.flexbox-item-4{
+    min-height: 400px;
+    
+}
+.flexbox-item-5{
+    min-height: 400px;
+    
+}
+.flexbox-item-6{
+    min-height: 400px;
+    
+}
+.flexbox-item-7{
+    min-height: 400px;
+    
+}
+.flexbox-item-8{
+    min-height: 400px;
+    ;
+    
+}
+.flexbox-item-9{
+    min-height: 400px;
+    
+}
+.flexbox-item-10{
+    min-height: 400px;
+    
+}
+
+*/
